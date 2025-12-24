@@ -24,5 +24,6 @@ int main(int argc, char *argv[])
     write(fd, c, 7 * sizeof(char));
     close(fd);
     free(c);
+    // test
     return 0;
 }
